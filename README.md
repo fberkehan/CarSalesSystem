@@ -9,26 +9,7 @@ An administrator panel accessible only to the admin
 Ability to add and manage car listings through the administrator panel
 Contact form for users to communicate with the seller
 Car listings only become published on the website once approved by the administrator
-Installation
-Clone this project:
 
-bash
-git clone https://github.com/user/second-hand-car-sales-website.git
-Install required dependencies:
-
-pip install -r requirements.txt
-Create the database:
-
-
-python manage.py migrate
-Create an admin account:
-
-
-python manage.py createsuperuser
-Start the server:
-
-
-python manage.py runserver
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
